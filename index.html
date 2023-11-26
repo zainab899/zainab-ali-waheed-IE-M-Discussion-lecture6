@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ #div1 {
+ background: linear-gradient(to bottom, #FF0000, #FF6666, #FFCCCC);
+ padding: 20px;
+ }
+ #div2 {
+ background-image: url('images.jpeg');
+ background-repeat: repeat-x;
+ height: 200px;
+ }
+ #div3 {
+ background-image: url('istockphoto-1434054606-1024x1024.jpg');
+ background-position: top right;
+ background-attachment: fixed;
+ padding: 120px;
+ }
+ #box-model-text {
+ width: 400px;
+ padding: 10px;
+ margin: 10px;
+ border: 2px solid black;
+ background-color: #EFEFEF;
+ }
+ </style>
+</head>
+<body>
+ <div id="div1">
+ <p>Paragraph 1</p>
+ <p>Paragraph 2</p>
+ <p>Paragraph 3</p>
+ </div>
+ <div id="div2"></div>
+ <div id="div3">
+ <div id="box-model-text">Text with a box model (Total element width is 400px)</div>
+ </div>
+</body>
+</html>
